@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: bisque;
+}
+.navbar{
+    position: sticky;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    width: 100vw;
+    align-items: center;
+
+  
+}
+.image{
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+    justify-content: space-between;
+}
+.option{
+    font-size: 1.5rem;
+}
+.option a:hover{
+    color: red;
+}
+.option a{
+    text-decoration: none;
+    color: white;
+    margin: 7px;
+}
+.button select{
+    background-color: black;
+    color: white;
+    height: 6vh;
+    width: auto;
+    border-radius: 7px;
+}
+.button button{
+    height: 6vh;
+    width: 7vw;
+    color:white;
+    background-color: red;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.button button:hover{
+    background-color: blue;
+}
+.button button a{
+    text-decoration: none;
+    color: white;
+}
+.photosection{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.photosection .head{
+    height: 15vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3rem;
+}
+.photo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+}
+.photo div{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border:2px solid black;
+    margin: 15px;
+}
+.photo div img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.back{
+    height:40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    background-image: url(https://plus.unsplash.com/premium_photo-1663047201632-4045f1e2d8b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2NXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+}
+.footer{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
